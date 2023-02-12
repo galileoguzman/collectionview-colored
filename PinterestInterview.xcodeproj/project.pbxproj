@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2A584432996DF7600B5D4B5 /* ItemPresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A584422996DF7600B5D4B5 /* ItemPresentable.swift */; };
+		F2A584472996E01F00B5D4B5 /* ItemCollectionViewCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A584462996E01F00B5D4B5 /* ItemCollectionViewCellViewModel.swift */; };
 		F2B5B01129941F55008FD97A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B5B01029941F55008FD97A /* AppDelegate.swift */; };
 		F2B5B01329941F55008FD97A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B5B01229941F55008FD97A /* SceneDelegate.swift */; };
 		F2B5B01529941F55008FD97A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B5B01429941F55008FD97A /* ViewController.swift */; };
 		F2B5B01829941F55008FD97A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B5B01629941F55008FD97A /* Main.storyboard */; };
 		F2B5B01A29941F56008FD97A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2B5B01929941F56008FD97A /* Assets.xcassets */; };
 		F2B5B01D29941F56008FD97A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2B5B01B29941F56008FD97A /* LaunchScreen.storyboard */; };
+		F2B5B025299428D0008FD97A /* CustomFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B5B024299428D0008FD97A /* CustomFlowLayout.swift */; };
+		F2B5B02729942E3F008FD97A /* ItemColored.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B5B02629942E3F008FD97A /* ItemColored.swift */; };
+		F2B5B02929942F5C008FD97A /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2B5B02829942F5C008FD97A /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F2A584422996DF7600B5D4B5 /* ItemPresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemPresentable.swift; sourceTree = "<group>"; };
+		F2A584462996E01F00B5D4B5 /* ItemCollectionViewCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCollectionViewCellViewModel.swift; sourceTree = "<group>"; };
 		F2B5B00D29941F55008FD97A /* PinterestInterview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinterestInterview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2B5B01029941F55008FD97A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F2B5B01229941F55008FD97A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +31,9 @@
 		F2B5B01929941F56008FD97A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2B5B01C29941F56008FD97A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F2B5B01E29941F56008FD97A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2B5B024299428D0008FD97A /* CustomFlowLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFlowLayout.swift; sourceTree = "<group>"; };
+		F2B5B02629942E3F008FD97A /* ItemColored.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemColored.swift; sourceTree = "<group>"; };
+		F2B5B02829942F5C008FD97A /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,8 @@
 		F2B5B00F29941F55008FD97A /* PinterestInterview */ = {
 			isa = PBXGroup;
 			children = (
+				F2A584462996E01F00B5D4B5 /* ItemCollectionViewCellViewModel.swift */,
+				F2A584422996DF7600B5D4B5 /* ItemPresentable.swift */,
 				F2B5B01029941F55008FD97A /* AppDelegate.swift */,
 				F2B5B01229941F55008FD97A /* SceneDelegate.swift */,
 				F2B5B01429941F55008FD97A /* ViewController.swift */,
@@ -63,6 +75,9 @@
 				F2B5B01929941F56008FD97A /* Assets.xcassets */,
 				F2B5B01B29941F56008FD97A /* LaunchScreen.storyboard */,
 				F2B5B01E29941F56008FD97A /* Info.plist */,
+				F2B5B024299428D0008FD97A /* CustomFlowLayout.swift */,
+				F2B5B02629942E3F008FD97A /* ItemColored.swift */,
+				F2B5B02829942F5C008FD97A /* ViewModel.swift */,
 			);
 			path = PinterestInterview;
 			sourceTree = "<group>";
@@ -140,7 +155,12 @@
 			files = (
 				F2B5B01529941F55008FD97A /* ViewController.swift in Sources */,
 				F2B5B01129941F55008FD97A /* AppDelegate.swift in Sources */,
+				F2B5B02729942E3F008FD97A /* ItemColored.swift in Sources */,
+				F2A584432996DF7600B5D4B5 /* ItemPresentable.swift in Sources */,
+				F2B5B025299428D0008FD97A /* CustomFlowLayout.swift in Sources */,
+				F2B5B02929942F5C008FD97A /* ViewModel.swift in Sources */,
 				F2B5B01329941F55008FD97A /* SceneDelegate.swift in Sources */,
+				F2A584472996E01F00B5D4B5 /* ItemCollectionViewCellViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
